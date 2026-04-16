@@ -51,3 +51,41 @@ while True:
     print("3. Lihat antrian terdepan (Peek)")
     print("4. Tampilkan semua antrian")
     print("5. Keluar")
+
+#Membuat logika if untuk pilihan menu utama
+#Marvyn
+    pilihan = input("Pilih menu: ")
+
+    if pilihan == "1":
+        n = int(input("Berapa orang yang antri  : "))
+        for i in range (n):
+            nama = str(input(f"Masukkan nama ke {i+1}   :"))
+            keluhan = str(input("Masukkan keluhan anda : "))
+            qll.enqueue(nama,keluhan)
+            print(f"{nama}({keluhan}) berhasil masuk antrian.")
+
+    elif pilihan == "2":
+        keluar = qll.dequeue()
+        if keluar:
+            print(f"{keluar} keluar dari antrian.")
+        else:
+            print("Antrian kosong!")
+
+    elif pilihan == "3":
+        depan = qll.peek()
+        if depan:
+            print(f"Antrian terdepan: {depan}")
+        else:
+            print("Antrian kosong!")
+
+    elif pilihan == "4":
+        print("\nIsi antrian:")
+        qll.tampilkan()
+
+
+    elif pilihan == "5":
+        print("Keluar.")
+        break
+
+    else:
+        print("Pilihan tidak valid!")
