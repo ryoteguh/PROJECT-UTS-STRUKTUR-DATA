@@ -70,7 +70,13 @@ flowchart TD
     C -->|Lainnya| S[Pilihan tidak valid]
     S --> B
 ```
-<p>Pada input,data dimasukkan ke dalam sistem, misalnya pasien memasukkan nama dan keluhan. Selanjutnya, pada tahap proses, sistem akan mengolah data tersebut sesuai aturan yang telah dibuat, seperti menambahkan pasien ke dalam antrian atau menentukan urutan pelayanan. Terakhir, tahap output adalah hasil dari proses tersebut, misalnya menampilkan daftar antrian, pasien yang dipanggil, atau informasi lainnya </p>
+
+
+<h4> Implementasi sistem</h4>
+<p> Implementasi sistem antrian pasien rumah sakit  dilakukan menggunakan bahasa pemrograman Python dengan menerapkan struktur data queue berbasis linked list. Program dibangun dalam bentuk class yang berfungsi untuk mengelola data pasien serta menyediakan operasi utama pada antrian.
+Bentuk program bisa dilihat pada link berikut: 
+https://github.com/ryoteguh/PROJECT-UTS-STRUKTUR-DATA.git
+</p>
 
 <h2><bold>Daftar Pusaka</bold></h2>
 - Saputra, H., Arman, S. A., Fairuzabadi, M., Impron, A., Winardi, S., Lumba, E., Syah, F., Al Anshori, F., Saputra, N., Kadang, M. O., & Hastomo, W. (2026). *Struktur data dan algoritma dalam Python: Panduan praktis*. Yash Media. https://books.google.co.id/books?id=hJHCEQAAQBAJ <br>
