@@ -16,7 +16,7 @@
   <li>Bagaimana sistem antrian yang dibangun mampu menyelesaikan permasalahan nyata dalam manajemen antrian pasien, khususnya dalam hal penambahan, pengeluaran, dan pemantauan antrian secara real-time?</li>
 </ol>
 <h4><bold>Solusi</bold></h4>
-<p>Untuk menyelesaikan permasalahan tersebut, dibuat program sistem parkir menggunakan bahasa pemrograman Python dengan menerapkan struktur data Queue berbasis Linked List. 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Untuk menyelesaikan permasalahan tersebut, dibuat program sistem parkir menggunakan bahasa pemrograman Python dengan menerapkan struktur data Queue berbasis Linked List. 
 Adapun solusi yang diterapkan sebagai berikut: </p>
 <ol>
   <li>Penggunaan linked list dinamis memungkinkan antrian bertumbuh dan menyusut sesuai kebutuhan tanpa batas kapasitas tetap, mengatasi keterbatasan array statis.</li>
@@ -49,23 +49,23 @@ flowchart TD
 
     C -->|2| I[/dequeue/]
     I --> J{antrian ada?}
-    J -->|Tidak| K[/antrian kosong!!!/]
+    J -->|Tidak| K[/antrian kosong!/]
     K --> B
-    I -->|Ya| L[ambil front]
+    J -->|Ya| L[ambil front]
     L --> M[hapus node]
     M --> O[update front]
     O --> B
 
     C -->|3| P[/peek/]
     P --> R{antrian ada?}
-    R -->|Tidak| S[/antrian kosong!!!/]
+    R -->|Tidak| S[/antrian kosong!/]
     S --> B
     R -->|Ya| T[/tampilkan antrian paling pertama/]
     T --> B
 
     C -->|4| U[/Display/]
     U --> V{antrian ada?}
-    V -->|Tidak| W[antrian kosong!!!]
+    V -->|Tidak| W[/antrian kosong!/]
     W --> B
     V -->|Ya| X[/Tampilkan semua antrian/]
     X --> B
@@ -79,17 +79,17 @@ flowchart TD
 
 
 <h4> Implementasi sistem</h4>
-<p> Implementasi sistem antrian pasien rumah sakit  dilakukan menggunakan bahasa pemrograman Python dengan menerapkan struktur data queue berbasis linked list. Program dibangun dalam bentuk class yang berfungsi untuk mengelola data pasien serta menyediakan operasi utama pada antrian.
+<p> &nbsp;&nbsp;&nbsp;&nbsp;Implementasi sistem antrian pasien rumah sakit  dilakukan menggunakan bahasa pemrograman Python dengan menerapkan struktur data queue berbasis linked list. Program dibangun dalam bentuk class yang berfungsi untuk mengelola data pasien serta menyediakan operasi utama pada antrian.
 Bentuk program bisa dilihat pada link berikut: 
 https://github.com/ryoteguh/PROJECT-UTS-STRUKTUR-DATA.git
 </p>
 <h2><bold>Kesimpulan</bold></h2>
 <h4>Apakah rumusan masalah terselesaikan</h4>
-<p>Seluruh rumusan masalah yang diajukan telah terjawab melalui implementasi sistem ini. Struktur Linked List berhasil menyediakan wadah yang dinamis bagi antrian pasien, sehingga tidak ada batasan kaku (seperti pada array statis) yang menghalangi pendaftaran pasien baru. Sistem ini secara nyata memudahkan petugas dalam menambah, memanggil, dan memantau antrian secara real-time melalui menu interaktif.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Seluruh rumusan masalah yang diajukan telah terjawab melalui implementasi sistem ini. Struktur Linked List berhasil menyediakan wadah yang dinamis bagi antrian pasien, sehingga tidak ada batasan kaku (seperti pada array statis) yang menghalangi pendaftaran pasien baru. Sistem ini secara nyata memudahkan petugas dalam menambah, memanggil, dan memantau antrian secara real-time melalui menu interaktif.</p>
 <h4>Apakah sistem berjalan sesuai teori</h4>
-<p>Sistem berjalan sepenuhnya sesuai dengan landasan teori FIFO (First In, First Out). Penggunaan pointer front untuk akses pasien terdepan dan rear untuk penambahan pasien di posisi terakhir memastikan bahwa data diproses secara adil dan terstruktur.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Sistem berjalan sepenuhnya sesuai dengan landasan teori FIFO (First In, First Out). Penggunaan pointer front untuk akses pasien terdepan dan rear untuk penambahan pasien di posisi terakhir memastikan bahwa data diproses secara adil dan terstruktur.</p>
 <h4>Bagaimana manfaat queue pada kasus</h4>
-<p>Queue bermanfaat sebagai memastikan sistem layanan berjalan dengan adil dimana pasian pertama pasti akan dilayani pertama sehingga konflik di pendaftaran bisa dicegah</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Queue bermanfaat sebagai memastikan sistem layanan berjalan dengan adil dimana pasian pertama pasti akan dilayani pertama sehingga konflik di pendaftaran bisa dicegah</p>
 
 <h2><bold>Daftar Pusaka</bold></h2>
 - Saputra, H., Arman, S. A., Fairuzabadi, M., Impron, A., Winardi, S., Lumba, E., Syah, F., Al Anshori, F., Saputra, N., Kadang, M. O., & Hastomo, W. (2026). *Struktur data dan algoritma dalam Python: Panduan praktis*. Yash Media. https://books.google.co.id/books?id=hJHCEQAAQBAJ <br>
