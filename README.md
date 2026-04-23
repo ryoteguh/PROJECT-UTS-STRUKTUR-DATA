@@ -83,6 +83,13 @@ flowchart TD
 Bentuk program bisa dilihat pada link berikut: 
 https://github.com/ryoteguh/PROJECT-UTS-STRUKTUR-DATA.git
 </p>
+<h2><bold>Kesimpulan</bold></h2>
+<h4>Apakah rumusan masalah terselesaikan</h4>
+<p>Seluruh rumusan masalah yang diajukan telah terjawab melalui implementasi sistem ini. Struktur Linked List berhasil menyediakan wadah yang dinamis bagi antrian pasien, sehingga tidak ada batasan kaku (seperti pada array statis) yang menghalangi pendaftaran pasien baru. Sistem ini secara nyata memudahkan petugas dalam menambah, memanggil, dan memantau antrian secara real-time melalui menu interaktif.</p>
+<h4>Apakah sistem berjalan sesuai teori</h4>
+<p>Sistem berjalan sepenuhnya sesuai dengan landasan teori FIFO (First In, First Out). Penggunaan pointer front untuk akses pasien terdepan dan rear untuk penambahan pasien di posisi terakhir memastikan bahwa data diproses secara adil dan terstruktur.</p>
+<h4>Bagaimana manfaat queue pada kasus</h4>
+<p>Queue bermanfaat sebagai memastikan sistem layanan berjalan dengan adil dimana pasian pertama pasti akan dilayani pertama sehingga konflik di pendaftaran bisa dicegah</p>
 
 <h2><bold>Daftar Pusaka</bold></h2>
 - Saputra, H., Arman, S. A., Fairuzabadi, M., Impron, A., Winardi, S., Lumba, E., Syah, F., Al Anshori, F., Saputra, N., Kadang, M. O., & Hastomo, W. (2026). *Struktur data dan algoritma dalam Python: Panduan praktis*. Yash Media. https://books.google.co.id/books?id=hJHCEQAAQBAJ <br>
