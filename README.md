@@ -78,6 +78,7 @@ flowchart TD
 ```
 
 
+<img src="https://github.com/eyka0209akssjjs0209/my-assets/blob/main/Image/BaksoEnak.jpg">
 <h4> Implementasi sistem</h4>
 <p> &nbsp;&nbsp;&nbsp;&nbsp;Implementasi sistem antrian pasien rumah sakit  dilakukan menggunakan bahasa pemrograman Python dengan menerapkan struktur data queue berbasis linked list. Program dibangun dalam bentuk class yang berfungsi untuk mengelola data pasien serta menyediakan operasi utama pada antrian.
 Bentuk program bisa dilihat pada link berikut: 
