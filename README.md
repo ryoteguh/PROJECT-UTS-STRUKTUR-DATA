@@ -2,7 +2,7 @@
 
 <h4>Nama|NIM|akun GitHub</h4>
 <ol>
-  <li>Ryo Teguh Budi Utomo |2501010063| ryoteguh</li>
+  <li>Ryo Teguh Priyo Utomo |2501010063| ryoteguh</li>
   <li>Ngakan Gede Marvyn Cakra Ajidharma |2501010078| marpinleclerc-jpg</li>
   <li>Andi Pratama |2501010092| eyka0209akssjjs0209</li>
 </ol>
